@@ -119,6 +119,139 @@
 
     /* End: About */
 
+    /*azienda*/
+
+    .z-index-0 {
+      z-index: 0!important;
+  }
+
+    .position-absolute {
+      position: absolute !important;
+    }
+    .origin-center {
+      transform-origin: center!important;
+    }
+
+    .top-0 {
+      top: 0 !important;
+    }
+
+    .end-0 {
+      right: 0!important;
+  }
+
+    
+    .start-0 {
+      left: 0 !important;
+    }
+    .start-15 {
+      left: 15% !important;
+    }
+    .start-3 {
+      left: 3% !important;
+    }
+
+    .start-10 {
+      left: 10% !important;
+    }
+
+    .bottom-0 {
+      bottom: 0 !important;
+    }
+
+    .bottom-7 {
+      bottom: 7% !important;
+    }
+
+    .bottom-40 {
+      bottom: 40% !important;
+    }
+
+    .bottom-75 {
+      bottom: 75% !important;
+    }
+    
+
+    .origin-center {
+      transform-origin: center !important;
+    }
+    .f-w-6 {
+      width: 2.5rem !important;
+    }
+
+    .rotate-n45 {
+      transform: rotate(-45deg) !important;
+    }
+    
+    
+
+    
+
+    
+
+    
+
+   
+
+  
+
+ 
+
+  
+
+  .animation-float {
+    -webkit-animation: float 3s ease-in-out infinite;
+    animation: float 3s infinite linear;
+  }
+
+  .animation-float-1 {
+    -webkit-animation: floating 3s ease-in-out infinite;
+    animation: 3s infinite alternate floating;
+  }
+
+  .animation-float-2 {
+    animation: rotate 7s infinite linear;
+      transform-origin: center;
+      transform-box: fill-box;
+  }
+
+
+
+
+
+@keyframes float {
+  from {
+    transform: rotate(0deg) translate3d(5px, 0, 0) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translate3d(5px, 0, 0) rotate(-360deg);
+  }
+}
+
+@keyframes floating {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes rotate {
+  from{
+      transform: rotateZ(0deg);
+  }
+  to{
+      transform: rotateZ(360deg);
+  }
+}
+
+
+    /*End:Azienda*/
+
  /* Servizi */
 
     .servizi .card { 
@@ -129,6 +262,27 @@
     .icon-img-150 {
         width: 150px;
       }
+
+
+      .servizi .watermark {
+        bottom: -94px;
+        height: 348px;
+        left: 55%;
+        overflow: hidden;
+        position: absolute;
+        transform: rotate(13deg) translateX(-50%);
+        width: 100%;
+        z-index: -1;
+    }
+
+    .watermark svg {
+        height: 548px;
+        left: 85%;
+        max-width: none;
+        position: absolute;
+        transform:  translateX(-50%);
+        
+    }
 
 
 /* End: Servizi */
