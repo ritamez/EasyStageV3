@@ -780,7 +780,7 @@ Overlay Menu
 
 .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu, #mainMenu.dark nav > ul > li .dropdown-menu { background-color: #1e2022; border-color: #2c2f32; }
 
-.dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > span, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a { color: #c1c3ce; }
+.dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > span, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a { color: #f8f4f0; }
 
 .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a:focus, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a:hover, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a:active, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span:focus, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span:hover, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span:active, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:focus, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:active, #mainMenu.dark nav > ul > li .dropdown-menu > li > a:focus, #mainMenu.dark nav > ul > li .dropdown-menu > li > a:hover, #mainMenu.dark nav > ul > li .dropdown-menu > li > a:active, #mainMenu.dark nav > ul > li .dropdown-menu > li > span:focus, #mainMenu.dark nav > ul > li .dropdown-menu > li > span:hover, #mainMenu.dark nav > ul > li .dropdown-menu > li > span:active, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:focus, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:active { color: #c1c3ce; }
 
@@ -1318,7 +1318,7 @@ html { font-size: 88%; }
 
 body { font-size: 1rem; line-height: 1.65714286em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "Poppins", sans-serif; color: #3c4043; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: inherit; color: #1e2022; margin: 0; letter-spacing: 0.5px; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: inherit; color: #1A2238; margin: 0; letter-spacing: 0.5px; }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small { font-weight: 100; }
 
@@ -3047,7 +3047,7 @@ Helpers
 
 .text-grey, .text-grey h1, .text-grey h2, .text-grey h3, .text-grey h4, .text-grey h5, .text-grey h6, .text-grey .lead, .text-grey p, .text-grey a:not(.button), .text-grey a:not(.btn-light):hover, .text-grey i, .text-grey li, .text-grey label, .text-grey div:not(.alert), .text-grey span:not(.btn-label) { color: #ccc; }
 
-.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white p, .text-white a, .text-white i { color: #fff !important; }
+.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white p, .text-white a, .text-white i { color: #f8f4f0 !important; }
 
 .with-errors li { color: #981a1a !important; }
 
@@ -5291,7 +5291,7 @@ div.icon-box:before { display: none !important; }
 
 .icon-box.effect.fancy.small:hover > .icon i { font-size: 76px; }
 
-.icon-box.clean .icon i { background-color: none; color: #333; font-size: 50px; }
+.icon-box.clean .icon i { background-color: none; color: #1A2238; font-size: 50px; }
 
 .icon-box.clean.small .icon i { font-size: 36px; }
 

@@ -6,19 +6,7 @@
  <link href="css/custom.css" rel="stylesheet">
 
 */
-:root{
-    --color-blu: #236892;
-    --color-blu-2:#23607b;
-    --color-azurro: #4CA7D1;
-    --color-rosso: #E16168;
-    --color-arancia: #F7921E;
-    --color-verde: #9BC542;
-    --color-giallo: #EBD23A;
-    --color-viola: #C75EA4;
-    --color-gray: #f8f4f0;
-    /*--primary-font:;
-    --secondary-font:;*/
-  }
+
 /* Navbar*/
 
 
@@ -39,9 +27,7 @@
 }
 
 
-.dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > span, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a {
-    color: #C75EA4;
-  }
+
 
   .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu, #mainMenu.dark nav > ul > li .dropdown-menu {
     background-color: var(--color-blu-2);
@@ -54,14 +40,10 @@
       }
   }
  
-  .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > a, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li > span, .dark:not(.submenu-light) #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > a, #mainMenu.dark nav > ul > li .dropdown-menu > li > span, #mainMenu.dark nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a {
-    color: var(--color-gray);
-  }
+  
 
+  
 
-  #header #mainMenu nav > ul > li.hover-active > a, #header #mainMenu nav > ul > li.hover-active > span, #header #mainMenu nav > ul > li.current > a, #header #mainMenu nav > ul > li.current > span, #header #mainMenu nav > ul > li:hover > a, #header #mainMenu nav > ul > li:hover > span, #header #mainMenu nav > ul > li:focus > a, #header #mainMenu nav > ul > li:focus > span {
-    color: var(--color-gray);
-  }
 /* End:Navbar*/
 
 
