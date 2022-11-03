@@ -17,7 +17,7 @@
     <link href="css/custom.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-easy-gray">
     <!-- Body Inner -->
     <div class="body-inner">
         <!-- Topbar -->
@@ -25,6 +25,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
+                        
                         <ul class="top-menu">
                             <li><a href="tel:963368691">Teléfono: +34 963 36 86 910</a></li>
                             <li><a href="mailto:info@easystage.eu">Email: info@easystage.eu</a></li>
@@ -49,31 +50,22 @@
         </div>
         <!-- end: Topbar -->
          <!-- Header -->
-         <header id="header" data-transparent="true" class="header-disable-fixed dark">
+         <header id="header" data-transparent="true" class="header-disable-fixed header-logo-center dark">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
                         <a href="index.html">
-                            <img src="/homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-default py-2">
-                            <img src="/homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-dark py-2">
+                            <img src="./homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-default py-2">
+                            <img src="./homepages/easy_stage/logo/Logo_Easystage-01.png" class="img-fluid logo-dark py-2">
                         </a>
                     </div>
                     <!--End: Logo-->
-                    <!-- Search -->
-                    <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
-                        <form class="search-form" action="search-results-page.html" method="get">
-                            <input class="form-control" name="q" type="text" placeholder="Buscar..." />
-                            <span class="text-muted">Comienza a escribir y presiona "Enter" o "ESC" para cerrar</span>
-                        </form>
-                    </div>
-                    <!-- end: search -->
+                    
                     <!--Header Extras-->
                     <div class="header-extras">
                         <ul>
-                            <li>
-                                <a id="btn-search" href="#"> <i class="icon-search"></i></a>
-                            </li>
+                            
                             <li>
                                 <div class="p-dropdown">
                                     <a href="#"><i class="icon-globe"></i><span>IT</span></a>
@@ -92,7 +84,7 @@
                     </div>
                     <!--end: Navigation Resposnive Trigger-->
                     <!--Navigation-->
-                    <div id="mainMenu" class="menu-center">
+                    <div id="mainMenu" >
                         <div class="container">
                             <nav>
                                 <!--Left Menu-->
@@ -100,17 +92,6 @@
                                     <li><a href="index.html">Home</a></li>
                                     
                                     <li><a href="erasmusplus.html">Erasmus +</a></li>
-                                    
-
-                                    <li class="dropdown"><a href="#">Servizzi</a>
-                                        <ul class="dropdown-menu rounded">
-                                            <li><a href="lingua.html">Corso di Lingua</a></li>
-                                            <li><a href="alberghiero.html">Corsi Alberghiero ristorazione</a></li>
-                                            <li><a href="attivita.html">Attività Culturali</a></li>
-                                            <li><a href="trasferimenti.html">Trasferimenti e traspoto publico</a></li>
-                                            <li><a href="alloggio.html">Aloggio</a></li>
-                                        </ul>
-                                    </li>
                                     <li class="dropdown"><a href="#">Programmi</a>
                                         <ul class="dropdown-menu rounded">
                                             <li><a href="alternanza.html">Alternanza Scuola - Lavoro</a></li>
@@ -119,8 +100,35 @@
                                             
                                         </ul>
                                     </li>
+
+                                   
+
                                     
-                                    <li><a href="blog.html">Blog</a></li>
+                                    
+                                    
+                                </ul>
+
+                                <ul>
+                                    <li class="dropdown"><a href="#">Corsi</a>
+                                        <ul class="dropdown-menu rounded">
+                                            <li><a href="lingua.html">Corso di Lingua</a></li>
+                                            <li><a href="alberghiero.html">Corsi Alberghiero ristorazione</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Servizi</a>
+                                        <ul class="dropdown-menu rounded">
+                                            <li><a href="attivita.html">Attività Culturali</a></li>
+                                            <li><a href="trasferimenti.html">Trasferimenti e traspoto publico</a></li>
+                                            <li><a href="alloggio.html">Alloggio</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    
+
+                                    <li><a href="tirocinio.html">Tirocini</a></li>
+                                    
+                                   
                                     <li><a href="contattaci.html">Contattaci</a></li>
                                     
                                 </ul>
@@ -133,100 +141,100 @@
             </div>
         </header>
         <!-- end: Header -->
-
-         <!-- SECTION IMAGE FULLSCREEN -->
-		<section class="alternanza-hero halfscreen">
-			<div class="bg-overlay"></div>
+        <!-- Page title -->
+         <section id="page-title"class="alternanza-hero text-light" style="background-image:url(homepages/easy_stage/alternanza/alternanza.jpg); background-size: cover; background-position: center center;">
+            <div class="bg-overlay" data-style="15"></div>
             <div class="shape-divider" data-style="1" data-height="300"></div>
-			<div class="container">
-				<div class="container-fullscreen">
-					<div class="col-lg-6 text-middle text-left text-light m-t-100">
-						
-						<h2 class="text-medium m-t-0">Alternanza Scuola Lavoro</h2>
-                        <p class="lead">É un programma con il semplice obiettivo di accrescentare delle competenze e delle conoscenze scolastiche attraverso esperienze lavorative.</p>
-						
-						
-					</div>
-
-
-				</div>
-			</div>
-		</section>
-		<!-- end: SECTION IMAGE FULLSCREEN -->
-
-         <!-- SIMPLE, IT'S GREAT APP -->
-         <section class="alternanza-info">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8" data-animate="fadeIn">
-                        <div class="heading-text heading-section">
-                            <h2 class="text-medium">In osservanza della nuova normativa de La Buona Scuola relativa all’alternanza scuola-lavoro, il nostro programma prevede:</h2>
-                            
-                        </div>
-                    </div>
+                
+                <div class="page-title">
+                    <h2 class="text-medium text-start m-t-0">Alternanza Scuola Lavoro</h2>
+                    
                 </div>
+            </div>
+        </section>
+        <!-- end: Page title -->
+        <!-- SIMPLE, IT'S GREAT APP -->
+        <section class="alternanza-info no-padding">
+            <div class="container">
+                <div class="row d-flex align-items-center">
 
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="card  h-100 shadow-none">
-                            <img class="card-img-top" src="../images/mockup/1.jpg" alt="Card image cap">
-                            
-                            <div class="card-body">
-                                <h3 class="card-title pb-3">Corso di <br>Spagnolo</h3>
-                                <p class="card-text">Le lezioni sono volte all’apprendimento di una terminologia specifica della lingua spagnola relazionata con l’indirizzo scolastico.</p>
-                                <p class="card-text">La Escuela El Tandem si incarica della formazione linguistica presso le sue strutture nel cuore del quartiere di Ruzafa, uno dei più vivi di Valencia e a solo pochi passi dal centro.</p>
-                                <a href="lingua.html" class="btn btn-primary" style="position:absolute; bottom: 0px;">Corso di Lingua</a>
-                            </div>
+                    <div class="col-12 col-lg-6" data-animate="fadeIn">
+                        <div class="heading-text heading-section text-start">
+                            <h3 class="text-medium">In osservanza della nuova normativa de La Buona Scuola relativa all’alternanza scuola-lavoro, il nostro programma prevede:</h3>
                             
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="card  h-100 shadow-none">
-                            <img class="card-img-top" src="../images/mockup/2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h3 class="card-title pb-3">Visite <br>Aziendali</h3>
-                                <p class="card-text">Sono previste visite aziendali, conferenze e meeting in aziende ai fini di avvicinare gli alunni al mondo del lavoro.</p>
-                                <p class="card-text">Le aziende verranno accuratamente scelte in base alle esigenze delle singole scuole e prevedono l’accompagnamento di un tutor madrelingua per permettere una facile comunicazione.</p>
+                    <div class="col-12 col-lg-4 offset-lg-1 d-flex align-items-stretch">
+                        <div class="card pt-5 bg-easy-gray  border-0 shadow-none">
+                            <div class="m-auto">
+                                <img src="./images/mockup/2.jpg" class="img-fluid" alt="Card image cap">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title mb-1 text-colored text-xs pb-3">Visite Aziendali</h4>
+                                <p class="card-text mt-0 text-colored">Sono previste visite aziendali, conferenze e meeting in aziende ai fini di avvicinare gli alunni al mondo del lavoro.</p>
+                                <p class="card-text mt-auto mb-4 text-colored">Le aziende verranno accuratamente scelte in base alle esigenze delle singole scuole e prevedono l’accompagnamento di un tutor madrelingua per permettere una facile comunicazione.</p>
                                 
                             </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card h-100 shadow-none">
-                            <img class="card-img-top" src="../images/mockup/2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h3 class="card-title pb-3">Sistemazione in <br>Famiglia</h3>
-                                <p class="card-text">Durante il soggiorno gli studenti alloggeranno presso famiglie ubicate nella città di Valencia in camere doppie o triple con trattamento di pensione completa.
-
-                                </p>
-                                <a href="alloggio.html" class="btn btn-primary" style="position:absolute; bottom: 0px;">Alloggio</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="card h-100 shadow-none">
-                            <img class="card-img-top" src="../images/mockup/2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h3 class="card-title pb-3">Attività <br>Culturali</h3>
-                                <p class="card-text">Durante le ore libere sono previste attività culturali ed educative.  </p>
-                                <p class="card-text">A seconda della durata del programma verranno convalidate dalle 40 alle 160 ore.</p>
-                                <a href="attivita.html" class="btn btn-primary" style="position:absolute; bottom: 0px;">Attività</a>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
 
-                
-            </div>
+                <div id="second-row-alternanza" class="row">
 
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                        <div class="card pt-5 bg-easy-gray border-0 shadow-none">
+                            <div class="m-auto rounded">
+                                <img src="./images/mockup/3.jpg" class="img-fluid" alt="Card image cap">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title mb-1 text-colored text-xs pb-3">Sistemazione in Famiglia</h4>
+                                <p class="card-text mt-0 mb-4 text-colored">Durante il soggiorno gli studenti alloggeranno presso famiglie ubicate nella città di Valencia in camere doppie o triple con trattamento di pensione completa. </p>
+                                
+                                <a href="alloggio.html" class="btn btn-primary item-link mt-auto align-self-baseline ml-1">Alloggio</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                        <div class="card pt-5 bg-easy-gray  border-0 shadow-none">
+                            <div class="m-auto rounded">
+                                <img src="./images/mockup/3.jpg" class="img-fluid" alt="Card image cap">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title mb-1 text-colored text-xs pb-3">Attività<br> Culturali</h4>
+                                <p class="card-text mt-0 text-colored">Durante le ore libere sono previste attività culturali ed educative.</p>
+                                <p class="card-text mb-4 text-colored">A seconda della durata del programma verranno convalidate dalle 40 alle 160 ore.</p>
+                                <a href="attivita.html" class="btn btn-primary item-link mt-auto align-self-baseline ml-1">Attività</a>
+                            </div>
+                            
+                        </div>
+                    </div> 
+
+                    <div class="col-12 col-lg-4 d-flex align-items-stretch">
+                        <div class="card pt-5 bg-easy-gray  border-0 shadow-none">
+                            <div class="m-auto">
+                                <img src="./images/mockup/1.jpg" class="img-fluid" alt="Card image cap">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title mb-1 text-colored text-xs pb-3">Corso<br> di Spagnolo</h4>
+                                <p class="card-text mt-auto text-colored">Le lezioni sono volte all’apprendimento di una terminologia specifica della lingua spagnola relazionata con l’indirizzo scolastico.</p>
+                                <p class="card-text mt-auto mb-4 text-colored">La Escuela El Tandem si incarica della formazione linguistica presso le sue strutture nel cuore del quartiere di Ruzafa, uno dei più vivi di Valencia e a solo pochi passi dal centro.</p>
+                                <a href="lingua.html" class="btn btn-primary item-link mt-auto align-self-baseline ml-1">Corso di Lingua</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                </div> 
+            </div> 
         </section>
         <!-- SIMPLE, IT'S GREAT APP -->
 
 
-        <section class="call-to-action">
+        <section class="call-to-action no-padding">
             <div class="call-to-action p-t-100 p-b-100  mb-0 call-to-action-dark">
                 <div class="container">
                   <div class="row">
@@ -249,7 +257,8 @@
 
         <!-- Footer -->
         <footer id="footer" class="bg-footer">
-            <div class="footer-content">
+            <div class="shape-divider" data-style="2" data-position="top" data-flip-vertical="true" style="z-index: 0; opacity: 1;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 120" preserveAspectRatio="none" style="height:105px"><path d="M567.67,31.14c-26.22,17.36-50,36.55-81.8,50C437.52,101.48,375.52,106.21,317,103.23s-115.42-13-173.15-19.56C96.47,78.25,47.18,75.18,0,80.07v32.41H630V0C606.44,7.52,585.89,19.09,567.67,31.14Z" style="fill:#fff;opacity:0.64"></path><path d="M567.67,38.67c-26.22,17.35-50,36.55-81.8,50C437.52,109,375.52,113.73,317,110.75s-115.42-13-173.15-19.56C96.47,85.77,47.18,82.7,0,87.59V120H630V7.52C606.44,15,585.89,26.61,567.67,38.67Z" style="fill:#fff"></path></svg></div>
+            <div class="footer-content p-t-150">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-2">
