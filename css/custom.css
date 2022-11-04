@@ -90,16 +90,14 @@
       }
 
 
-      .bg-overlay[data-style="14"] { background: -webkit-linear-gradient(top, var(--color-verde) 0%, var(--color-azurro) 100%); background: linear-gradient(180deg, var(--color-verde) 0%, var(--color-azurro) 100%); opacity: .9; }
-      
-      
-      
-
+      .bg-overlay[data-style="14"] { background: -webkit-linear-gradient(top, var(--color-verde) 0%, var(--color-azurro) 100%); background: linear-gradient(180deg, var(--color-verde) 0%, var(--color-azurro) 100%); opacity: .9; } 
       .bg-overlay[data-style="15"] { background: var(--color-blu-2); opacity: .9; }
 
       .bg-overlay[data-style="16"] { background: var(--color-azurro); opacity: .9; }
 
       .bg-overlay[data-style="17"] { background: var(--color-viola); opacity: .9; }
+
+      .bg-overlay[data-style="18"] { background: var(--color-negro); opacity: .5; }
 
 
     /* End:Background-colors */
